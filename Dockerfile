@@ -1,18 +1,88 @@
-# Tags: latest, 11.0.0-debian-10-r37, 11.0.0, 11-debian-10, 11
+# Tags: latest, 11.1.0-debian-10-r3, 11.1.0, 11-debian-10, 11
 FROM bitnami/wavefront-proxy:latest
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r37
-FROM bitnami/wavefront-proxy:11.0.0
+FROM bitnami/wavefront-proxy:11.1.0-debian-10-r3
+FROM bitnami/wavefront-proxy:11.1.0
 FROM bitnami/wavefront-proxy:11-debian-10
 FROM bitnami/wavefront-proxy:11
 
-# Tags: 10.14.0-debian-10-r97, 10.14.0, 10-debian-10, 10
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r97
+# Tags: _
+FROM bitnami/wavefront-proxy:_
+
+# Tags: 10.14.0-debian-10-r108, 10.14.0, 10-debian-10, 10
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r108
 FROM bitnami/wavefront-proxy:10.14.0
 FROM bitnami/wavefront-proxy:10-debian-10
 FROM bitnami/wavefront-proxy:10
 
-# Tags: _
-FROM bitnami/wavefront-proxy:_
+# Tags: 11.1.0-debian-10-r2
+FROM bitnami/wavefront-proxy:11.1.0-debian-10-r2
+
+# Tags: 10.14.0-debian-10-r107
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r107
+
+# Tags: 11.1.0-debian-10-r1
+FROM bitnami/wavefront-proxy:11.1.0-debian-10-r1
+
+# Tags: 10.14.0-debian-10-r106
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r106
+
+# Tags: 11.1.0-debian-10-r0
+FROM bitnami/wavefront-proxy:11.1.0-debian-10-r0
+
+# Tags: 11.0.0-debian-10-r46, 11.0.0
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r46
+FROM bitnami/wavefront-proxy:11.0.0
+
+# Tags: 10.14.0-debian-10-r105
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r105
+
+# Tags: 10.14.0-debian-10-r104
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r104
+
+# Tags: 11.0.0-debian-10-r44
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r44
+
+# Tags: 10.14.0-debian-10-r103
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r103
+
+# Tags: 11.0.0-debian-10-r43
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r43
+
+# Tags: 10.14.0-debian-10-r102
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r102
+
+# Tags: 11.0.0-debian-10-r42
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r42
+
+# Tags: 10.14.0-debian-10-r101
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r101
+
+# Tags: 11.0.0-debian-10-r41
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r41
+
+# Tags: 10.14.0-debian-10-r100
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r100
+
+# Tags: 11.0.0-debian-10-r40
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r40
+
+# Tags: 10.14.0-debian-10-r99
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r99
+
+# Tags: 11.0.0-debian-10-r39
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r39
+
+# Tags: 10.14.0-debian-10-r98
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r98
+
+# Tags: 11.0.0-debian-10-r38
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r38
+
+# Tags: 10.14.0-debian-10-r97
+FROM bitnami/wavefront-proxy:10.14.0-debian-10-r97
+
+# Tags: 11.0.0-debian-10-r37
+FROM bitnami/wavefront-proxy:11.0.0-debian-10-r37
 
 # Tags: 10.14.0-debian-10-r96
 FROM bitnami/wavefront-proxy:10.14.0-debian-10-r96
@@ -118,63 +188,3 @@ FROM bitnami/wavefront-proxy:10.14.0-debian-10-r80
 
 # Tags: 11.0.0-debian-10-r19
 FROM bitnami/wavefront-proxy:11.0.0-debian-10-r19
-
-# Tags: 10.14.0-debian-10-r79
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r79
-
-# Tags: 11.0.0-debian-10-r18
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r18
-
-# Tags: 10.14.0-debian-10-r78
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r78
-
-# Tags: 11.0.0-debian-10-r17
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r17
-
-# Tags: 10.14.0-debian-10-r77
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r77
-
-# Tags: 11.0.0-debian-10-r16
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r16
-
-# Tags: 10.14.0-debian-10-r76
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r76
-
-# Tags: 11.0.0-debian-10-r15
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r15
-
-# Tags: 10.14.0-debian-10-r75
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r75
-
-# Tags: 11.0.0-debian-10-r14
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r14
-
-# Tags: 10.14.0-debian-10-r74
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r74
-
-# Tags: 11.0.0-debian-10-r13
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r13
-
-# Tags: 10.14.0-debian-10-r73
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r73
-
-# Tags: 11.0.0-debian-10-r12
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r12
-
-# Tags: 10.14.0-debian-10-r72
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r72
-
-# Tags: 11.0.0-debian-10-r11
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r11
-
-# Tags: 10.14.0-debian-10-r71
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r71
-
-# Tags: 11.0.0-debian-10-r10
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r10
-
-# Tags: 10.14.0-debian-10-r70
-FROM bitnami/wavefront-proxy:10.14.0-debian-10-r70
-
-# Tags: 11.0.0-debian-10-r9
-FROM bitnami/wavefront-proxy:11.0.0-debian-10-r9
